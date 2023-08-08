@@ -5,14 +5,23 @@
 
 movies = ["ironman", "batman", "hulk", "spiderman", "avengers"]
 
+print(movies)
+
 fav_movie = []
 
 for i in movies:
-    print(i)
+    if i == "hulk":
+        print(i.upper())
 
-    if movies == "ironman" or "avengers":
+    elif i == "spiderman":
+        movies = i.replace("spiderman", "spidy")
+        print(movies)
+        
+    elif i == "ironman" or i == "avengers":
         fav_movie.append(i)
         print(fav_movie)
+
+
         
 
 
