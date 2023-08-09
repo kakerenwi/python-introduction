@@ -14,8 +14,7 @@ for i in movies:
         print(i.upper())
 
     elif i == "spiderman":
-        movies = i.replace("spiderman", "spidy")
-        print(movies)
+        print(i.replace("spiderman", "spidy"))
         
     elif i == "ironman" or i == "avengers":
         fav_movie.append(i)

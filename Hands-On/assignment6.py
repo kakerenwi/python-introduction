@@ -13,3 +13,7 @@ while attempt_count < total_limit:
         break
     attempt_count = attempt_count + 1
 
+    if attempt_count == 5:
+        print("lock the phone")
+        
+
