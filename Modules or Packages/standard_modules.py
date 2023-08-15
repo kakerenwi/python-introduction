@@ -33,6 +33,9 @@ print("\n# use methods from json module")
 print(json)
 print(json.dumps({'name': 'vamsi', 'age':21, 'country': 'India'}))
 
+import os
+print(os.listdir())
+
 
 
 
